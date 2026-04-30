@@ -1,0 +1,8 @@
+node_modules
+artifacts
+.git
+.env
+bun.lock
+README.md
+blueprint.md
+DESIGN.md

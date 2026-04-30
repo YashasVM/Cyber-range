@@ -1,0 +1,22 @@
+{
+  "name": "cloud-cyber-range",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "bun@1.3.9",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/server.ts",
+    "start": "bun src/server.ts",
+    "doctor": "bun scripts/doctor.ts",
+    "sandbox:check": "bun scripts/check-sandbox.ts",
+    "sandbox:build": "bun scripts/build-sandbox.ts",
+    "check": "bunx tsc --noEmit",
+    "test": "bun scripts/run-tests.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "^1.3.1",
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  }
+}
